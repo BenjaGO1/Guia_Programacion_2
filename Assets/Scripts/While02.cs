@@ -14,22 +14,21 @@ public class While02 : MonoBehaviour
             Debug.Log("Ambos numeros son iguales");
 
         }
-        else
-        {
-
+        else if (num1>=num2) { 
             while (num1 >= num2)
             {
                 Debug.Log(num2);
                 num2++;
             }
-            while (num2 >= num1)
+        }
+        else { 
+        while (num2 >= num1)
             {
                 Debug.Log(num1);
                 num1++;
             }
         }
 
-  
     }
 
     // Update is called once per frame
